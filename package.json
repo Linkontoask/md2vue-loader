@@ -1,0 +1,42 @@
+{
+  "name": "@link/md2vue-loader",
+  "version": "1.0.0",
+  "description": "md to vue webpack loader",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config config/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linkontoask/md2vue-loader.git"
+  },
+  "keywords": [
+    "markdown",
+    "vue"
+  ],
+  "author": "Link",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Linkontoask/md2vue-loader/issues"
+  },
+  "homepage": "https://github.com/Linkontoask/md2vue-loader#readme",
+  "devDependencies": {
+    "css-loader": "^3.3.2",
+    "html-webpack-plugin": "^3.2.0",
+    "loader-utils": "^1.2.3",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^5.2.5",
+    "markdown-it-chain": "^1.3.0",
+    "path": "^0.12.7",
+    "schema-utils": "^2.6.1",
+    "style-loader": "^1.0.1",
+    "transliteration": "^2.1.7",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
