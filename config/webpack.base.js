@@ -19,7 +19,7 @@ module.exports = {
           {
             loader: path.resolve(__dirname, '../index.js'),
             options: {
-
+              html: true
             }
           }
         ],

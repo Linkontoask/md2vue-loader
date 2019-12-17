@@ -7,3 +7,14 @@ and for all the work we will accomplish together in 2020.
 
 W3C wishes you a happy holiday season
 and all the best for the new year!
+
+```vue
+<template>
+  <h1>Link</h1>
+</template>
+<script>
+  export default {
+    name: "Link"
+  }
+</script>
+```
