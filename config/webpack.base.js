@@ -15,6 +15,7 @@ module.exports = {
       {
         test: /\.md$/,
         use: [
+          'vue-loader',
           {
             loader: path.resolve(__dirname, '../index.js'),
             options: {
