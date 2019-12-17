@@ -1,8 +1,13 @@
 const { getOptions } =  require('loader-utils');
 const validateOptions = require('schema-utils');
 const MarkdownIt = require('markdown-it');
-const VueLoader = require('vue-loader');
-const md = new MarkdownIt();
+const slugify = require('transliteration').slugify;
+const md = new MarkdownIt({
+  html: true,
+}).use(require('markdown-it-anchor'), {
+  slugify: slugify,
+  permalink: true
+});
 
 const schema = {
   type: 'object',

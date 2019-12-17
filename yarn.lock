@@ -1026,11 +1026,6 @@ deep-equal@^1.0.1:
     object-keys "^1.1.1"
     regexp.prototype.flags "^1.2.0"
 
-deepmerge@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
-  integrity sha1-EEmdhohEza1P7ghC34x/bwyVp1M=
-
 default-gateway@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npm.taobao.org/default-gateway/download/default-gateway-4.2.0.tgz#167104c7500c2115f6dd69b0a536bb8ed720552b"
@@ -2242,11 +2237,6 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "https://registry.npm.taobao.org/isobject/download/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-javascript-stringify@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.npm.taobao.org/javascript-stringify/download/javascript-stringify-1.6.0.tgz#142d111f3a6e3dae8f4a9afd77d45855b5a9cce3"
-  integrity sha1-FC0RHzpuPa6PSpr9d9RYVbWpzOM=
-
 json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/json-parse-better-errors/download/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
@@ -2415,13 +2405,6 @@ markdown-it-anchor@^5.2.5:
   version "5.2.5"
   resolved "https://registry.npm.taobao.org/markdown-it-anchor/download/markdown-it-anchor-5.2.5.tgz?cache=0&sync_timestamp=1571233383580&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmarkdown-it-anchor%2Fdownload%2Fmarkdown-it-anchor-5.2.5.tgz#dbf13cfcdbffd16a510984f1263e1d479a47d27a"
   integrity sha1-2/E8/Nv/0WpRCYTxJj4dR5pH0no=
-
-markdown-it-chain@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.npm.taobao.org/markdown-it-chain/download/markdown-it-chain-1.3.0.tgz#ccf6fe86c10266bafb4e547380dfd7f277cc17bc"
-  integrity sha1-zPb+hsECZrr7TlRzgN/X8nfMF7w=
-  dependencies:
-    webpack-chain "^4.9.0"
 
 markdown-it@^10.0.0:
   version "10.0.0"
@@ -4209,14 +4192,6 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   integrity sha1-wdjRSTFtPqhShIiVy2oL/oh7h98=
   dependencies:
     minimalistic-assert "^1.0.0"
-
-webpack-chain@^4.9.0:
-  version "4.12.1"
-  resolved "https://registry.npm.taobao.org/webpack-chain/download/webpack-chain-4.12.1.tgz#6c8439bbb2ab550952d60e1ea9319141906c02a6"
-  integrity sha1-bIQ5u7KrVQlS1g4eqTGRQZBsAqY=
-  dependencies:
-    deepmerge "^1.5.2"
-    javascript-stringify "^1.6.0"
 
 webpack-cli@^3.3.10:
   version "3.3.10"
