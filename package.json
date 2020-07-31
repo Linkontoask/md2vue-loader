@@ -4,7 +4,8 @@
   "description": "md to vue webpack loader",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --config config/webpack.dev.js"
+    "dev": "webpack-dev-server --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.build.js"
   },
   "repository": {
     "type": "git",
@@ -31,12 +32,14 @@
     "schema-utils": "^2.6.1",
     "style-loader": "^1.0.1",
     "transliteration": "^2.1.7",
-    "vue": "^2.6.11",
-    "vue-loader": "^15.8.3",
-    "vue-template-compiler": "^2.6.11",
     "webpack": "^4.41.3",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0",
     "webpack-merge": "^4.2.2"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11"
   }
 }

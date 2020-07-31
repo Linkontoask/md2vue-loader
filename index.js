@@ -20,7 +20,9 @@ function mdOption (options = {}) {
       if (lang && Hljs.getLanguage(lang)) {
         try {
           return Hljs.highlight(lang, str, true).value;
-        } catch (e) {}
+        } catch (e) {
+          console.error(e)
+        }
       }
       return str;
     }
@@ -41,13 +43,18 @@ module.exports = function (source) {
 
   const md = mdOption(options);
 
-  const output = md.render(source);
-
+  const outputBody = md.render(source.replace(/^<script>([\s\S]*)<\/script>/, ''));
+  let outputScript = source.match(/^<script>([\s\S]*)<\/script>/) || ''
+  if (outputScript) {
+    outputScript = outputScript[0]
+  }
+  
   return `
     <template>
       <section class="markdown-body">
-        ${output}
+        ${outputBody}
       </section>
     </template>
+    ${outputScript}
   `;
 };

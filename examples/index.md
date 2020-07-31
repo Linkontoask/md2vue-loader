@@ -1,3 +1,12 @@
+<script>
+export default {
+  name: '',
+  mounted() {
+    console.log(this)
+  }
+}
+</script>
+
 # HAPPY HOLIDAYS FROM THE WORLD WIDE WEB CONSORTIUM!
 
 <img src="https://www.w3.org/comm/assets/graphics/EOY/EOY2019-mail.png" alt="w3"/>
@@ -13,3 +22,8 @@ and all the best for the new year!
   <h1>Link</h1>
 </template>
 ```
+
+<div>
+
+</div>
+
